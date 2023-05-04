@@ -229,6 +229,9 @@ ul {
 
 .staff {
   padding: 100px 0 140px;
+  background-image: url(../images/staff_picks_background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .staff__title {
@@ -236,6 +239,7 @@ ul {
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
+  color: #fff;
 }
 
 .staff__subtitle {
@@ -244,6 +248,7 @@ ul {
   line-height: 30px;
   font-weight: 400;
   margin: 0;
+  color: #fff;
 }
 
 .staff__card {
@@ -253,6 +258,8 @@ ul {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 40px;
+  padding: 0;
+  list-style-type: none;
 }
 
 .card {
