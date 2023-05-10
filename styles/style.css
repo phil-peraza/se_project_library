@@ -437,8 +437,7 @@ ul {
   color: #f2f2f2;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 16px;
-  margin-top: -3px;
+  margin: 0 0 16px 0;
 }
 
 .footer__column-heading {
@@ -448,14 +447,14 @@ ul {
   margin-bottom: 20px;
 }
 
-.footer__column-link a:link {
+.footer__column-link {
   color: white;
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
 }
 
-.footer__column-link a:hover {
+.footer__column-link:hover {
   color: #c1c1c1;
   font-size: 16px;
   line-height: 20px;
@@ -465,7 +464,7 @@ ul {
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin: 0 10px 0 0;
+  margin-right: 10px;
 }
 
 .footer__copyright {
